@@ -181,7 +181,7 @@ if __name__ == '__main__':
     nh = attentions.shape[1] # number of head
 
     # we keep only the output patch attention
-    attentions = attentions[0, :, 0, 1:].reshape(nh, -1)
+    attentions = attentions[0, :, 0, 1:].reshape(nh, -1) # -> uses attention of cls token (0th position)
 
     if args.threshold is not None:
         # we keep only a certain percentage of the mass
