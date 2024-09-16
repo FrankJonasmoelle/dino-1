@@ -1,6 +1,6 @@
-numpy==2.0.2
+numpy>=1.10,<1.20
 pillow==10.4.0
-matplotlib==4.0.1
+matplotlib==3.7.0
 # torch==2.4.1
 # torchvision==0.19.1
 tqdm==4.66.5

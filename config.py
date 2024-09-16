@@ -1,6 +1,6 @@
 
-datapath = "/Users/jonas/Desktop/dino/imagenet/ILSVRC/Data/CLS-LOC/train" # path to train
-
+#datapath = "/home/scaleout-orin/Documents/zenseact-project/archive/tiny-imagenet-200/train" # path to train
+datapath = "/dino/train"
 global_crops_scale = (0.14, 1.0) #Scale range of the cropped image before resizing, relatively to the origin image.
                                  #Used for large global view cropping. When disabling multi-crop (--local_crops_number 0), we
                                  #recommand using a wider range of scale ("--global_crops_scale 0.14 1." for example)
