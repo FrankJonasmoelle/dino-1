@@ -1,0 +1,13 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb
+# Ignore virtual environment directories
+.venv/
+
+# Ignore any .git folder and related files
+.git/
+.gitignore
+
+.github/

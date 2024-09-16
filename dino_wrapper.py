@@ -1,7 +1,6 @@
 from main_dino import DataAugmentationDINO
 import torch
 from torchvision import datasets, transforms
-import matplotlib.pyplot as plt
 import utils
 import json
 import os
